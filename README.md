@@ -1,13 +1,8 @@
 # Amplify Console Workshop
 
 In this workshop, you will learn how to deploy two sample apps to the AWS Amplify Console. 
-The Workshop consists of the following modules.
 
-0. Initial Setup
-1. Deploying your first app
-2. Managing Environments
-3. Deploying Backend resources
-4. Resource Cleanup
+![Alt text](amplify-logo.png)
 
 You will start by deploying your first app, which is a simple static website and will help you to get familiar with the development flow for Amplify Console. In Module 3 you will deploy a second app which also creates backend AWS Resources using the AWS Amplify Framework.
 
