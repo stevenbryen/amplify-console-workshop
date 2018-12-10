@@ -64,7 +64,7 @@ We have some additional features that we would like to add to our site, the firs
 
 8. Once your dev environment is deployed, navigate to the URL for the environment and you should be able to click through to the about.html page using the navigation links.
 
-##Module 2C - Managing Access Control
+## Module 2C - Managing Access Control
 
 We now have a development environment, but we still have work to do on styling our About page before we want is publicly available. Amplify offers a basic feature that allows us to add user/pass in front of select environments to restrict public access.
 
