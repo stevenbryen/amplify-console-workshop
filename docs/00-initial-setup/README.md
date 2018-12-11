@@ -35,7 +35,9 @@ This repo includes the following three folders which we will be using throughout
 
 ## Module 0B - Setting up your own CodeCommit Repos
 
-Each App that we deploy in Amplify console will be linked to a branch in a git repository of your own. This guide will walk you through how to set that up using AWS CodeCommit, but Amplify Console supports ***Bitbucket, GitHub, GitLab or AWS CodeCommit***. Feel free to use one of the other providers, but this guide will focus on CodeCommit only.
+Each App that we deploy in Amplify console will be linked to a branch in a git repository of your own. This guide will walk you through how to set that up using AWS CodeCommit, but Amplify Console supports ***Bitbucket, GitHub, GitLab or AWS CodeCommit***. 
+
+### NOTE: If you already have an account with one of those providers and authentication set up on your machine, it will be much faster for you to complete the workshop by using another git provider. Skip to Step 4, and create the repos in your provider of choice. In Step 6 make sure you change the remote repo URL.
 
 Firstly we need to configure Credentials for AWS CodeCommit. CodeCommit supports credentials over HTTPS with static Git Credentials, Using the AWS CLI Credential Helper or over SSH using SSH Keys. Details on all of these methods is available [here](https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up.html). I will focus on using SSH Keys below, but if for any reason you need to use HTTP, take a look at the link above.
 
