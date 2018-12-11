@@ -5,6 +5,8 @@ aws-exports.js
 amplify
 .amplifyrc
 
+.DS_Store
+
 # Logs
 logs
 *.log
