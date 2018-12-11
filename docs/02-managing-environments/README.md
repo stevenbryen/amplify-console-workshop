@@ -25,7 +25,7 @@ This stops our users getting any HTTP errors, but when this happens we would pre
 
 We have some additional features that we would like to add to our site, the first feature is to add an About page, because currently our link points to nowhere. We will use Amplify Console to manage multiple environments, these could be various feature branches, but for simplicity we will create one generic Dev branch for these changes.
 
-1. Make sure that you are in the `amplify-console-workshop/amplify-sample1` directory.
+1. Make sure that you are in the `amplify-console-workshop/amplifysample1` directory.
 
 2. Create a new git branch of your application
 
@@ -48,7 +48,7 @@ We have some additional features that we would like to add to our site, the firs
     $ git push origin dev
     ```
     
-5. Now we have our new remote branch navigate back to the Amplify Console and select your amplify-sample1 application. Select "Connect Branch" from the top right of the console.
+5. Now we have our new remote branch navigate back to the Amplify Console and select your amplifysample1 application. Select "Connect Branch" from the top right of the console.
 
     ![Alt text](images/2B-connect-branch.png)
 

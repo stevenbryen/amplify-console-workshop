@@ -17,7 +17,7 @@ First we need to navigate to the AWS Amplify Console. You will see that AWS Ampl
 
     ![Alt text](images/1A-amplify-select-git.png)
 
-3. You should now be able to select your **amplify-sample1** repository in AWS CodeCommit from the dropdown. And then select the **master** branch.
+3. You should now be able to select your **amplifysample1** repository in AWS CodeCommit from the dropdown. And then select the **master** branch.
 
     *Note: If you do not see your repo here, ensure you are using Amplify in the same region as your respository is hosted.*
 

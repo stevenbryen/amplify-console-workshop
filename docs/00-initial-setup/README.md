@@ -30,8 +30,8 @@ This repo includes the following three folders which we will be using throughout
 
 
 - **docs** - All of these walkthrough instructions are in this folder, broken down per module.
-- **amplify-sample1** - A Satic Single Page App that we will use to demonstrate the front end functionality of Amplify Console.
-- **amplify-sample2** - A site that uses Amplify Framework to create backend resources. We will use this in Module 3.
+- **amplifysample1** - A Satic Single Page App that we will use to demonstrate the front end functionality of Amplify Console.
+- **amplifysample2** - A site that uses Amplify Framework to create backend resources. We will use this in Module 3.
 
 ## Module 0B - Setting up your own CodeCommit Repos
 
@@ -47,29 +47,29 @@ Firstly we need to configure Credentials for AWS CodeCommit. CodeCommit supports
 
 3. Now that you have access to CodeCommit, we need to create two respositories for each of our applications. We will use the AWS Console to create these. In the AWS Console, navigate to the AWS CodeCommit console using the "Services" link in the Navigation pane.
 
-4. Select the "Create Repository" Button and create a respository with the name ***"amplify-sample1"***. Repeat this step and create a repository named ***"amplify-sample2"***
+4. Select the "Create Repository" Button and create a respository with the name ***"amplifysample1"***. Repeat this step and create a repository named ***"amplifysample2"***
 
 5. We now have two repos created for our sample apps. We now need to associate our code with them. Change Directory into the first sample app dir and configure the git repo.
 
     ```
-    $ cd amplify-sample1
+    $ cd amplifysample1
     $ git init
     $ git add .
     $ git commit -m "initial commit"
     ```
 
-6. Now navigate to the repositories page on the AWS CodeCommit console. You should see a list of respositories and an option to Clone the SSH URL in the right collumn for the amplify-sample1 repo. This will copy your repo URL to the Clipboard for you to replace the one in the code snippet below.
+6. Now navigate to the repositories page on the AWS CodeCommit console. You should see a list of respositories and an option to Clone the SSH URL in the right collumn for the amplifysample1 repo. This will copy your repo URL to the Clipboard for you to replace the one in the code snippet below.
     
     The below commands will add the remote repository into your local git configuration and then push the initial code to the remote CodeCommit Repo.
 
     ```
-    $ git remote add origin ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/amplify-sample1
+    $ git remote add origin ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/amplifysample1
     $ git push -u origin master
     ```
 
 7. You can check that the **git push** was sucessful by clicking the repo in the CodeCommit console. It should no longer be empty.
 
-8. Repeat steps 5-7 for **amplify-sample2** subfolder. We now have two remote repos in CodeCommit ready for our workshop.
+8. Repeat steps 5-7 for **amplifysample2** subfolder. We now have two remote repos in CodeCommit ready for our workshop.
 
 You are now ready to move onto Module 1.
 

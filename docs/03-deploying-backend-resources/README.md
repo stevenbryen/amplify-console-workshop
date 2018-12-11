@@ -23,10 +23,10 @@ In this module we will deploy a more complex React web application that leverage
 
 ## Module 3B - Deploying Backend reosources with AWS Amplify
 
-1. Firstly we need to make sure we are working in the directory of or **amplify-sample2** application
+1. Firstly we need to make sure we are working in the directory of or **amplifysample2** application
 
     ```
-    $ cd ../amplify-sample2
+    $ cd ../amplifysample2
     ```
 
 2. Initialise an AWS Amplify Project. You will need to answer a few questions. Please use the answers below (you can change he default editor). We are building a **javascript** and **react** application, with the code in the **src** directory. 
@@ -56,7 +56,7 @@ In this module we will deploy a more complex React web application that leverage
     $ git push origin master
     ```
 
-5. Now navigate to the AWS Amplify console and connect a new application from the main page. We will link our **CodeCommit** repo **amplify-sample2**, there should only be one master branch available.
+5. Now navigate to the AWS Amplify console and connect a new application from the main page. We will link our **CodeCommit** repo **amplifysample2**, there should only be one master branch available.
 
 6. When we get to the Build Settings section, we should now see that Amplify console has detected this is a React-Amplify Project and has added the necessary build commands to deploy the backend for you. More details on this can be found [here](https://docs.aws.amazon.com/amplify/latest/userguide/deploy-backend.html).
 

@@ -12,7 +12,7 @@ You have now completed the Amplify Console Workshop. To clean up AWS resources a
 
     ![Alt text](images/4-confirm-delete.png)
 
-    This will be enough to remove the whole of **amplify-sample1**, however for our backend resources created by the **amplify-sample2** application we will need to complete one more step to remove those resources.
+    This will be enough to remove the whole of **amplifysample1**, however for our backend resources created by the **amplifysample2** application we will need to complete one more step to remove those resources.
     
 ### Backend CloudFormation Resources
     
@@ -30,7 +30,7 @@ You have now completed the Amplify Console Workshop. To clean up AWS resources a
 
 ### CodeCommit Repos
 
-6. Head over to the AWS CodeCommit Console and select your **amplify-sample1** repositiory to view it.
+6. Head over to the AWS CodeCommit Console and select your **amplifysample1** repositiory to view it.
 
 7. On the left hand navigation, navigate to the Settings section.
 
